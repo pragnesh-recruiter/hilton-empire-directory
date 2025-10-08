@@ -1,7 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { Phone, MessageCircle, Search, Users, MapPin, Car, Home } from 'lucide-react';
 
-// Sample data structure - Add more apartments following this format
 const apartmentsData = [
   {
     "flatNo": "B-201",
@@ -933,8 +932,8 @@ const apartmentsData = [
 ];
 
 const ApartmentCard = ({ apartment }) => {
-  const displayName = apartment.type === "ભાડૂઆત" ? apartment.tenantName : apartment.ownerName;
-  const displayPhone = apartment.type === "ભાડૂઆત" ? apartment.tenantPhone : apartment.ownerPhone;
+  const isTenant = apartment.type === "ભાડુઆત"; // Check if flat is rented
+  const displayPhone = isTenant ? apartment.tenantPhone : apartment.ownerPhone;
 
   return (
     <div className="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 p-5 border-l-4 border-blue-500">
@@ -953,15 +952,9 @@ const ApartmentCard = ({ apartment }) => {
         </span>
       </div>
 
-      {/* Owner/Tenant Name */}
-      {displayName && (
-        <div className="mb-3">
-          <p className="text-lg font-semibold text-gray-700">{displayName}</p>
-          {apartment.type === "ભાડૂઆત" && apartment.ownerName && (
-            <p className="text-sm text-gray-500">માલિક: {apartment.ownerName}</p>
-          )}
-        </div>
-      )}
+      lassName="text-lg font-semibold text-gray-700">{apartment.ownerName}</p>
+  )}
+</div>
 
       {/* Contact Buttons */}
       {displayPhone && (

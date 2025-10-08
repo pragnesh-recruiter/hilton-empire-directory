@@ -956,7 +956,25 @@ const ApartmentCard = ({ apartment }) => {
   )}
 </div>
 
-      {/* Contact Buttons */}
+      {/* Owner & Tenant Names */}
+<div className="mb-3">
+  {isTenant ? (
+    <>
+      <p className="text-lg font-semibold text-gray-700">
+        ભાડુઆત: {apartment.tenantName}
+      </p>
+      {apartment.ownerName && (
+        <p className="text-sm text-gray-500">
+          માલિક: {apartment.ownerName}
+        </p>
+      )}
+    </>
+  ) : (
+    <p className="text-lg font-semibold text-gray-700">{apartment.ownerName}</p>
+  )}
+</div>
+
+  {/* Contact Buttons */}
       {displayPhone && (
         <div className="flex gap-2 mb-4">
           <a

@@ -932,8 +932,27 @@ const apartmentsData = [
 ];
 
 const ApartmentCard = ({ apartment }) => {
-  const isTenant = apartment.type === "ભાડુઆત"; // Check if flat is rented
-  const displayPhone = isTenant ? apartment.tenantPhone : apartment.ownerPhone;
+  // Use exact string used in your data
+  const isTenant = apartment.type === "ભાડુઆત";
+
+  // Choose contact phone (tenant when rented, otherwise owner)
+  const contactRaw = isTenant ? apartment.tenantPhone : apartment.ownerPhone;
+
+  // Helper: sanitize phone -> return last 10 digits (or '' if none)
+  const sanitizePhone = (p) => {
+    if (!p || p === "nan") return "";
+    const digits = String(p).replace(/\D/g, "");
+    if (!digits) return "";
+    return digits.length >= 10 ? digits.slice(-10) : digits;
+  };
+
+  const phoneDigits = sanitizePhone(contactRaw);
+  const telHref = phoneDigits ? `tel:+91${phoneDigits}` : null;
+  const waHref = phoneDigits ? `https://wa.me/91${phoneDigits}` : null;
+
+  // Display-friendly names (hide literal "nan")
+  const ownerName = apartment.ownerName && apartment.ownerName !== "nan" ? apartment.ownerName : "";
+  const tenantName = apartment.tenantName && apartment.tenantName !== "nan" ? apartment.tenantName : "";
 
   return (
     <div className="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 p-5 border-l-4 border-blue-500">
@@ -941,51 +960,49 @@ const ApartmentCard = ({ apartment }) => {
       <div className="flex justify-between items-center mb-4">
         <div className="flex items-center gap-2">
           <Home className="text-blue-600" size={24} />
-          <h3 className="text-2xl font-bold text-gray-800">{apartment.flatNo}</h3>
+          <h3 className="text-2xl font-bold text-gray-800">{apartment.flatNo || "—"}</h3>
         </div>
         <span className={`px-3 py-1 rounded-full text-sm font-semibold ${
-          apartment.type === "માલિક" 
-            ? "bg-green-100 text-green-700" 
-            : "bg-orange-100 text-orange-700"
+          apartment.type === "માલિક"
+            ? "bg-green-100 text-green-700"
+            : apartment.type === "ભાડુઆત"
+              ? "bg-orange-100 text-orange-700"
+              : "bg-gray-100 text-gray-700"
         }`}>
-          {apartment.type}
+          {apartment.type || "—"}
         </span>
       </div>
 
-      lassName="text-lg font-semibold text-gray-700">{apartment.ownerName}</p>
-  )}
-</div>
-
       {/* Owner & Tenant Names */}
-<div className="mb-3">
-  {isTenant ? (
-    <>
-      <p className="text-lg font-semibold text-gray-700">
-        ભાડુઆત: {apartment.tenantName}
-      </p>
-      {apartment.ownerName && (
-        <p className="text-sm text-gray-500">
-          માલિક: {apartment.ownerName}
-        </p>
-      )}
-    </>
-  ) : (
-    <p className="text-lg font-semibold text-gray-700">{apartment.ownerName}</p>
-  )}
-</div>
+      <div className="mb-3">
+        {isTenant ? (
+          <>
+            <p className="text-lg font-semibold text-gray-700">
+              ભાડુઆત: {tenantName || "—"}
+            </p>
+            {ownerName && (
+              <p className="text-sm text-gray-500">માલિક: {ownerName}</p>
+            )}
+          </>
+        ) : (
+          <p className="text-lg font-semibold text-gray-700">
+            {ownerName || "—"}
+          </p>
+        )}
+      </div>
 
-  {/* Contact Buttons */}
-      {displayPhone && (
+      {/* Contact Buttons (only show if we have usable digits) */}
+      {phoneDigits ? (
         <div className="flex gap-2 mb-4">
           <a
-            href={`tel:${displayPhone}`}
+            href={telHref}
             className="flex-1 bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-lg flex items-center justify-center gap-2 transition-colors"
           >
             <Phone size={18} />
             <span className="font-semibold">કૉલ કરો</span>
           </a>
           <a
-            href={`https://wa.me/91${displayPhone}`}
+            href={waHref}
             target="_blank"
             rel="noopener noreferrer"
             className="flex-1 bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded-lg flex items-center justify-center gap-2 transition-colors"
@@ -994,7 +1011,7 @@ const ApartmentCard = ({ apartment }) => {
             <span className="font-semibold">WhatsApp</span>
           </a>
         </div>
-      )}
+      ) : null}
 
       {/* Additional Info */}
       <div className="space-y-2 text-sm">
@@ -1004,22 +1021,24 @@ const ApartmentCard = ({ apartment }) => {
             <span>સભ્યો: {apartment.members}</span>
           </div>
         )}
-        
-        {apartment.nativePlace && (
+
+        {apartment.nativePlace && apartment.nativePlace !== "nan" && (
           <div className="flex items-center gap-2 text-gray-600">
             <MapPin size={16} className="text-blue-500" />
             <span>{apartment.nativePlace}</span>
           </div>
         )}
 
-        {apartment.vehicles.length > 0 && (
+        {Array.isArray(apartment.vehicles) && apartment.vehicles.length > 0 && (
           <div className="flex items-start gap-2 text-gray-600">
             <Car size={16} className="text-blue-500 mt-1" />
             <div className="flex flex-wrap gap-1">
               {apartment.vehicles.map((vehicle, idx) => (
-                <span key={idx} className="bg-gray-100 px-2 py-1 rounded text-xs">
-                  {vehicle}
-                </span>
+                vehicle && vehicle !== "nan" ? (
+                  <span key={idx} className="bg-gray-100 px-2 py-1 rounded text-xs">
+                    {vehicle}
+                  </span>
+                ) : null
               ))}
             </div>
           </div>

@@ -1074,7 +1074,7 @@ const HiltonEmpireDirectory = () => {
 
         {/* Filter Buttons */}
         <div className="flex gap-3 mb-6 flex-wrap">
-          {["બધા", "માલિક", "ભાડૂઆત"].map((type) => (
+          {["બધા", "માલિક", "ભાડુઆત"].map((type) => (
             <button
               key={type}
               onClick={() => setFilterType(type)}

@@ -35,7 +35,7 @@ const apartmentsData = [
     "tenantName": "nan",
     "tenantPhone": "nan",
     "members": 3,
-    "nativePlace": "",
+    "nativePlace": "ગરનાળા (ગોંડલ)",
     "vehicles": [
       "GJ-O3-HB-6607",
       "GJ-O3-KC-6149"
@@ -60,7 +60,7 @@ const apartmentsData = [
     "tenantName": "nan",
     "tenantPhone": "nan",
     "members": 2,
-    "nativePlace": "",
+    "nativePlace": "માણાવદર",
     "vehicles": [
       "GJ-03-EF-2294",
       "GJ-11-CN-2501"
@@ -74,7 +74,7 @@ const apartmentsData = [
     "tenantName": "nan",
     "tenantPhone": "nan",
     "members": 4,
-    "nativePlace": "",
+    "nativePlace": "લુવારસાર‌ ( જુનાગઢ)",
     "vehicles": [
       "GJ-03-JB-0967",
       "GJ-03-PF-2337"

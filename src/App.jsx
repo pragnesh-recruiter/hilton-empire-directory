@@ -22,7 +22,7 @@ const apartmentsData = [
     "tenantName": "nan",
     "tenantPhone": "nan",
     "members": 3,
-    "nativePlace": "",
+    "nativePlace": "ઢોળીધાર (જામકંડોરણા)",
     "vehicles": [
       "GJ-03-LJ-2881"
     ]

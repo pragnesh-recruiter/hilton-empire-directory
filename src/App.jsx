@@ -907,28 +907,9 @@ const apartmentsData = [
     "nativePlace": "",
     "vehicles": []
   },
-  {
-    "flatNo": "nan",
-    "ownerName": "nan",
-    "ownerPhone": "nan",
-    "type": "",
-    "tenantName": "nan",
-    "tenantPhone": "nan",
-    "members": 0,
-    "nativePlace": "",
-    "vehicles": []
+  
   },
-  {
-    "flatNo": "nan",
-    "ownerName": "nan",
-    "ownerPhone": "nan",
-    "type": "",
-    "tenantName": "nan",
-    "tenantPhone": "nan",
-    "members": 189,
-    "nativePlace": "",
-    "vehicles": []
-  }
+
 ];
 
 const ApartmentCard = ({ apartment }) => {

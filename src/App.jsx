@@ -18,7 +18,7 @@ const apartmentsData = [
     "flatNo": "B-202",
     "ownerName": "જીગરભાઈ. બી. સાવલીયા",
     "ownerPhone": "8200965484",
-    "type": "",
+    "type": "માલિક",
     "tenantName": "nan",
     "tenantPhone": "nan",
     "members": 3,
@@ -110,11 +110,11 @@ const apartmentsData = [
     "flatNo": "B-304",
     "ownerName": "પરેશભાઈ. વી. કોરડિયા",
     "ownerPhone": "9904521120",
-    "type": "",
+    "type": "ભાડુઆત",
     "tenantName": "nan",
     "tenantPhone": "nan",
     "members": 3,
-    "nativePlace": "",
+    "nativePlace": "મોટી પાનેલી",
     "vehicles": [
       "GJ-03-MQ-3859"
     ]

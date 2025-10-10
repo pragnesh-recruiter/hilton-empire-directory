@@ -73,7 +73,7 @@ const apartmentsData = [
     "tenantName": "nan",
     "tenantPhone": "nan",
     "members": 4,
-    "nativePlace": "લુવારસાર‌ ( જુનાગઢ)",
+    "nativePlace": "લુવારસાર‌ (જુનાગઢ)",
     "vehicles": [
       "GJ-03-JB-0967",
       "GJ-03-PF-2337"
@@ -87,7 +87,7 @@ const apartmentsData = [
     "tenantName": "nan",
     "tenantPhone": "nan",
     "members": 3,
-    "nativePlace": "",
+    "nativePlace": "મેશવાણ",
     "vehicles": [
       "GJ-11-BP-6401"
     ]
@@ -100,7 +100,7 @@ const apartmentsData = [
     "tenantName": "અમિતભાઈ એમ લંગણેચા",
     "tenantPhone": "7874533015",
     "members": 3,
-    "nativePlace": "",
+    "nativePlace": "ખોરાસા ગીર",
     "vehicles": [
       "GJ-01-LA-2320"
     ]
@@ -126,7 +126,7 @@ const apartmentsData = [
     "tenantName": "nan",
     "tenantPhone": "nan",
     "members": 5,
-    "nativePlace": "",
+    "nativePlace": "સણોસરા (માણાવદર)",
     "vehicles": [
       "GJ-11-PP-7245",
       "GJ-10-AP-6329"
@@ -140,7 +140,7 @@ const apartmentsData = [
     "tenantName": "nan",
     "tenantPhone": "nan",
     "members": 3,
-    "nativePlace": "",
+    "nativePlace": "નાનડીયા",
     "vehicles": [
       "GJ-03-NQ-4044",
       "GJ-03-NQ-3232",
@@ -155,7 +155,7 @@ const apartmentsData = [
     "tenantName": "રેનીશભાઈ જે માનસુરિયા",
     "tenantPhone": "6354693675",
     "members": 3,
-    "nativePlace": "",
+    "nativePlace": "ખાગેશ્રી",
     "vehicles": [
       "GJ-25-AB-1303",
       "GJ-12-DM-6401"
@@ -169,7 +169,7 @@ const apartmentsData = [
     "tenantName": "nan",
     "tenantPhone": "nan",
     "members": 3,
-    "nativePlace": "",
+    "nativePlace": "ઝાંપોદડ (જુનાગઢ)",
     "vehicles": [
       "GJ-03-CQ-6448",
       "GJ-03-LH-5144",
@@ -184,7 +184,7 @@ const apartmentsData = [
     "tenantName": "nan",
     "tenantPhone": "nan",
     "members": 2,
-    "nativePlace": "",
+    "nativePlace": "મેશવાણ",
     "vehicles": [
       "GJ-11-NN-2285",
       "GJ-03-JF-9415"
@@ -198,7 +198,7 @@ const apartmentsData = [
     "tenantName": "રવિભાઈ બી કાંસોદરીયા",
     "tenantPhone": "8160076197",
     "members": 2,
-    "nativePlace": "",
+    "nativePlace": "પ્રેમગઢ",
     "vehicles": [
       "GJ-03-JS-8142",
       "GJ-03-FK-1835"

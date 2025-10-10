@@ -212,7 +212,7 @@ const apartmentsData = [
     "tenantName": "nan",
     "tenantPhone": "nan",
     "members": 3,
-    "nativePlace": "",
+    "nativePlace": "ઝાંપોદડ (જુનાગઢ)",
     "vehicles": [
       "GJ-14-K-9774"
     ]
@@ -225,7 +225,7 @@ const apartmentsData = [
     "tenantName": "nan",
     "tenantPhone": "nan",
     "members": 3,
-    "nativePlace": "",
+    "nativePlace": "ઇશ્વરિયા (પોરબંદર)",
     "vehicles": [
       "GJ-03-LF-9311",
       "GJ-03-MN-9311"
@@ -239,7 +239,7 @@ const apartmentsData = [
     "tenantName": "પુનિતકુમાર એ માકડિયા",
     "tenantPhone": "9427270383",
     "members": 5,
-    "nativePlace": "",
+    "nativePlace": "ભાયાવદર",
     "vehicles": [
       "GJ-03-DH-7242",
       "GJ-06-BL-9367"
@@ -253,7 +253,7 @@ const apartmentsData = [
     "tenantName": "nan",
     "tenantPhone": "nan",
     "members": 3,
-    "nativePlace": "",
+    "nativePlace": "અનિડા (ભાલોડી)",
     "vehicles": [
       "GJ-03-JD-2827",
       "GJ-03-DA-7834",
@@ -268,7 +268,7 @@ const apartmentsData = [
     "tenantName": "વિજય ભાઈ. ડી. કાલરીયા",
     "tenantPhone": "9106588502",
     "members": 3,
-    "nativePlace": "",
+    "nativePlace": "ઘણેજ બાકુલા (તાલાલા)",
     "vehicles": [
       "GJ-03-FQ-4103",
       "GJ-03-JG-7890",
@@ -283,7 +283,7 @@ const apartmentsData = [
     "tenantName": "nan",
     "tenantPhone": "nan",
     "members": 3,
-    "nativePlace": "",
+    "nativePlace": "પાજોદ (માણાવદર)",
     "vehicles": [
       "GJ-03-DS-6862",
       "GJ-03-JB-3937",
@@ -298,7 +298,7 @@ const apartmentsData = [
     "tenantName": "nan",
     "tenantPhone": "nan",
     "members": 3,
-    "nativePlace": "",
+    "nativePlace": "શેઠ વડાલા (જામજોધપુર)",
     "vehicles": [
       "GJ-03-HL-3192",
       "GJ-03-NP-4126"
@@ -312,7 +312,7 @@ const apartmentsData = [
     "tenantName": "nan",
     "tenantPhone": "nan",
     "members": 6,
-    "nativePlace": "",
+    "nativePlace": "ભણગોર જામનગર",
     "vehicles": [
       "GJ-03-BN-1396"
     ]
@@ -325,7 +325,7 @@ const apartmentsData = [
     "tenantName": "nan",
     "tenantPhone": "nan",
     "members": 2,
-    "nativePlace": "",
+    "nativePlace": "કેવદ્રા",
     "vehicles": [
       "GJ-03-LK-6636",
       "GJ-03-BB-7939"
@@ -339,7 +339,7 @@ const apartmentsData = [
     "tenantName": "nan",
     "tenantPhone": "nan",
     "members": 2,
-    "nativePlace": "",
+    "nativePlace": "ભાયાવદર",
     "vehicles": [
       "GJ-03-KM-3617",
       "GJ-03-LB-0709"
@@ -353,7 +353,7 @@ const apartmentsData = [
     "tenantName": "nan",
     "tenantPhone": "nan",
     "members": 3,
-    "nativePlace": "",
+    "nativePlace": "માતરવાણીયા",
     "vehicles": [
       "GJ-11-BL-9046",
       "GJ-03-JS-1412"
@@ -367,7 +367,7 @@ const apartmentsData = [
     "tenantName": "nan",
     "tenantPhone": "nan",
     "members": 3,
-    "nativePlace": "",
+    "nativePlace": "સણોસરા (માણાવદર)",
     "vehicles": [
       "GJ-05-MB-7502",
       "GJ-03-FK-1068"
@@ -381,7 +381,7 @@ const apartmentsData = [
     "tenantName": "nan",
     "tenantPhone": "nan",
     "members": 2,
-    "nativePlace": "",
+    "nativePlace": "ડુમીયાણી (ઉપલેટા)",
     "vehicles": [
       "GJ-03-HP-8523"
     ]
@@ -394,7 +394,7 @@ const apartmentsData = [
     "tenantName": "nan",
     "tenantPhone": "nan",
     "members": 3,
-    "nativePlace": "",
+    "nativePlace": "કુતિયાણા",
     "vehicles": [
       "GJ-03-FC-3039"
     ]
@@ -407,7 +407,7 @@ const apartmentsData = [
     "tenantName": "nan",
     "tenantPhone": "nan",
     "members": 2,
-    "nativePlace": "",
+    "nativePlace": "જૂનાગઢ",
     "vehicles": [
       "GJ-11-AR-3964",
       "GJ-27-CP-8464"
@@ -415,13 +415,13 @@ const apartmentsData = [
   },
   {
     "flatNo": "B-801",
-    "ownerName": "ધારિકભાઈ ડી મણવર",
+    "ownerName": "ધારિતભાઈ ડી મણવર",
     "ownerPhone": "8000093048",
     "type": "માલિક",
     "tenantName": "nan",
     "tenantPhone": "nan",
     "members": 4,
-    "nativePlace": "",
+    "nativePlace": "અરડોઈ",
     "vehicles": [
       "GJ-03-FR-0750",
       "GJ-03-KL-1982",
@@ -437,7 +437,7 @@ const apartmentsData = [
     "tenantName": "nan",
     "tenantPhone": "nan",
     "members": 4,
-    "nativePlace": "",
+    "nativePlace": "દેસિંગા (માણાવદર)",
     "vehicles": [
       "GJ-03-KN-7650",
       "GJ-03-PD-7654"
@@ -451,7 +451,7 @@ const apartmentsData = [
     "tenantName": "સાહિલ એસ. સાપરીયા",
     "tenantPhone": "9726541846",
     "members": 2,
-    "nativePlace": "",
+    "nativePlace": "કોઠારી (માણાવદર)",
     "vehicles": [
       "GJ-11-PP-7335",
       "GJ-36-B-8594"
@@ -465,7 +465,7 @@ const apartmentsData = [
     "tenantName": "nan",
     "tenantPhone": "nan",
     "members": 2,
-    "nativePlace": "",
+    "nativePlace": "ગોકરણ (કુતિયાણા)",
     "vehicles": [
       "GJ-03-KD-7488",
       "GJ-03-ED-1974",
@@ -480,7 +480,7 @@ const apartmentsData = [
     "tenantName": "અંકિતભાઈ ડી વાછાણી",
     "tenantPhone": "9687778797",
     "members": 2,
-    "nativePlace": "",
+    "nativePlace": "ખડિયા",
     "vehicles": [
       "GJ-03 HA-9533"
     ]
@@ -493,7 +493,7 @@ const apartmentsData = [
     "tenantName": "ચાંદ પી. ચાનિયારા",
     "tenantPhone": "7778908453",
     "members": 2,
-    "nativePlace": "",
+    "nativePlace": "ભાયાવદર (ઉપલેટા)",
     "vehicles": [
       "GJ-03-MA-6130",
       "GJ-03-KL-2306"
@@ -507,7 +507,7 @@ const apartmentsData = [
     "tenantName": "nan",
     "tenantPhone": "nan",
     "members": 3,
-    "nativePlace": "",
+    "nativePlace": "ગડવાવ",
     "vehicles": [
       "GJ-03-BE-4403",
       "GJ-11-AE-6493",
@@ -522,7 +522,7 @@ const apartmentsData = [
     "tenantName": "nan",
     "tenantPhone": "nan",
     "members": 5,
-    "nativePlace": "",
+    "nativePlace": "ખડપીપળી",
     "vehicles": [
       "GJ-11-CM-5307",
       "GJ-11-CE-5307",
@@ -538,7 +538,7 @@ const apartmentsData = [
     "tenantName": "nan",
     "tenantPhone": "nan",
     "members": 5,
-    "nativePlace": "",
+    "nativePlace": "ખડિયા",
     "vehicles": [
       "GJ-11-CJ-3436",
       "GJ-03-MA-8636",
@@ -555,7 +555,7 @@ const apartmentsData = [
     "tenantName": "nan",
     "tenantPhone": "nan",
     "members": 3,
-    "nativePlace": "",
+    "nativePlace": "અવાણીયા",
     "vehicles": [
       "GJ-03-KA-9204",
       "GJ-03-BG-3269"
@@ -569,7 +569,7 @@ const apartmentsData = [
     "tenantName": "જયેશભાઈ ડી મણવર",
     "tenantPhone": "9998907457",
     "members": 4,
-    "nativePlace": "",
+    "nativePlace": "અનિડા (ભાલોડી)",
     "vehicles": [
       "GJ-05-ES-5922",
       "GJ-03-BK-2775"
@@ -583,7 +583,7 @@ const apartmentsData = [
     "tenantName": "બ્રિજેશ એસ કાલરીયા",
     "tenantPhone": "9974875673",
     "members": 3,
-    "nativePlace": "",
+    "nativePlace": "ધણેજ બાકુલા (તાલાલા)",
     "vehicles": [
       "GJ-03-EC-9071"
     ]
@@ -596,7 +596,7 @@ const apartmentsData = [
     "tenantName": "nan",
     "tenantPhone": "nan",
     "members": 4,
-    "nativePlace": "",
+    "nativePlace": "સુપેડી (ધોરાજી)",
     "vehicles": [
       "GJ-03-JH-6207",
       "GJ-38-AA-4549"
@@ -610,7 +610,7 @@ const apartmentsData = [
     "tenantName": "nan",
     "tenantPhone": "nan",
     "members": 0,
-    "nativePlace": "",
+    "nativePlace": "મોવાણા (કેશોદ)",
     "vehicles": []
   },
   {
@@ -621,7 +621,7 @@ const apartmentsData = [
     "tenantName": "nan",
     "tenantPhone": "nan",
     "members": 6,
-    "nativePlace": "",
+    "nativePlace": "બાવાની (પીપળી)",
     "vehicles": [
       "GJ-03-EQ-3917",
       "GJ-11-CA-6482",
@@ -636,7 +636,7 @@ const apartmentsData = [
     "tenantName": "nan",
     "tenantPhone": "nan",
     "members": 3,
-    "nativePlace": "",
+    "nativePlace": "નવા ગળોદર",
     "vehicles": [
       "GJ-11-RR-8458",
       "GJ-11-AS-4514"
@@ -650,7 +650,7 @@ const apartmentsData = [
     "tenantName": "nan",
     "tenantPhone": "nan",
     "members": 3,
-    "nativePlace": "",
+    "nativePlace": "થાણાપીપળી (જુનાગઢ)",
     "vehicles": [
       "GJ-03-BM-8343",
       "GJ-05-SX-7463"
@@ -664,7 +664,7 @@ const apartmentsData = [
     "tenantName": "nan",
     "tenantPhone": "nan",
     "members": 5,
-    "nativePlace": "",
+    "nativePlace": "ધંટીયા",
     "vehicles": [
       "GJ-03-NG-9883",
       "GJ-11-DD-4211",
@@ -680,7 +680,7 @@ const apartmentsData = [
     "tenantName": "ઉમેશભાઈ. એન. કણસાગરા",
     "tenantPhone": "9722124521",
     "members": 4,
-    "nativePlace": "",
+    "nativePlace": "ગણા ((માણાવદર)",
     "vehicles": [
       "GJ-03-EQ-1341",
       "GJ-03-JQ-0809",
@@ -695,7 +695,7 @@ const apartmentsData = [
     "tenantName": "nan",
     "tenantPhone": "nan",
     "members": 3,
-    "nativePlace": "",
+    "nativePlace": "નવા ગળોદર",
     "vehicles": [
       "GJ-03-JG-6838"
     ]
@@ -708,7 +708,7 @@ const apartmentsData = [
     "tenantName": "nan",
     "tenantPhone": "nan",
     "members": 3,
-    "nativePlace": "",
+    "nativePlace": "માતરવાણીયા",
     "vehicles": [
       "GJ-11-NN-7568"
     ]
@@ -721,7 +721,7 @@ const apartmentsData = [
     "tenantName": "nan",
     "tenantPhone": "nan",
     "members": 6,
-    "nativePlace": "",
+    "nativePlace": "મેશવાણ",
     "vehicles": [
       "GJ-03-EK-5632",
       "GJ-03-CD-2258",
@@ -737,7 +737,7 @@ const apartmentsData = [
     "tenantName": "ભાર્ગવભાઈ એચ ચોખલિયા",
     "tenantPhone": "9409435180",
     "members": 2,
-    "nativePlace": "",
+    "nativePlace": "પીપળીયા (ધોરાજી)",
     "vehicles": [
       "GJ-27-J-7630",
       "GJ-16-BG-8501"
@@ -751,7 +751,7 @@ const apartmentsData = [
     "tenantName": "nan",
     "tenantPhone": "nan",
     "members": 3,
-    "nativePlace": "",
+    "nativePlace": "ક્લાણા",
     "vehicles": [
       "GJ-03-JQ-4237",
       "GJ-03-EL-1267"
@@ -765,7 +765,7 @@ const apartmentsData = [
     "tenantName": "nan",
     "tenantPhone": "nan",
     "members": 2,
-    "nativePlace": "",
+    "nativePlace": "કોલકી (ઉપલેટા)",
     "vehicles": [
       "GJ-03-KJ-0325",
       "GJ-03-ED-9227",
@@ -780,7 +780,7 @@ const apartmentsData = [
     "tenantName": "nan",
     "tenantPhone": "nan",
     "members": 3,
-    "nativePlace": "",
+    "nativePlace": "ભાલેચડા (માણાવદર)",
     "vehicles": [
       "GJ-03-CP-2212",
       "GJ-05-CH-0095"
@@ -794,7 +794,7 @@ const apartmentsData = [
     "tenantName": "nan",
     "tenantPhone": "nan",
     "members": 2,
-    "nativePlace": "",
+    "nativePlace": "જૂનાગઢ",
     "vehicles": [
       "GJ-11-CJ-7955",
       "GJ-11-CL-8061"
@@ -808,7 +808,7 @@ const apartmentsData = [
     "tenantName": "દીપ ભાઈ શિહોરા",
     "tenantPhone": "8000994464",
     "members": 3,
-    "nativePlace": "",
+    "nativePlace": "મોટા ગુંડા (ભાણવડ)",
     "vehicles": [
       "GJ-37-H-8866"
     ]
@@ -821,7 +821,7 @@ const apartmentsData = [
     "tenantName": "રૂચિત આર. જસાણી",
     "tenantPhone": "9428242803",
     "members": 2,
-    "nativePlace": "",
+    "nativePlace": "જૂનાગઢ",
     "vehicles": [
       "GJ-11-BP-4452",
       "GJ-11-BK-3446",
@@ -837,7 +837,7 @@ const apartmentsData = [
     "tenantName": "nan",
     "tenantPhone": "nan",
     "members": 4,
-    "nativePlace": "",
+    "nativePlace": "ઝાંપોદડ (જૂનાગઢ)",
     "vehicles": [
       "GJ-01-PW-3228",
       "GJ-11-AR-4156",
@@ -874,7 +874,7 @@ const apartmentsData = [
     "tenantName": "nan",
     "tenantPhone": "nan",
     "members": 5,
-    "nativePlace": "",
+    "nativePlace": "લિબુડા",
     "vehicles": [
       "GJ-03-NA-9086",
       "GJ-03-NC-9086",
@@ -890,25 +890,11 @@ const apartmentsData = [
     "tenantName": "હર્ષ અશોકભાઈ કાલરીયા",
     "tenantPhone": "9375555589",
     "members": 2,
-    "nativePlace": "",
+    "nativePlace": "જામવાડી (જામજોધપુર)",
     "vehicles": [
       "GJ-10-EA-1197",
       "GJ-11-CH-8426"
     ]
-  },
-  {
-    "flatNo": "B-1405",
-    "ownerName": "nan",
-    "ownerPhone": "nan",
-    "type": "",
-    "tenantName": "nan",
-    "tenantPhone": "nan",
-    "members": 0,
-    "nativePlace": "",
-    "vehicles": []
-  },
-  
-  },
 
 ];
 

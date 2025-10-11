@@ -895,7 +895,7 @@ const apartmentsData = [
       "GJ-10-EA-1197",
       "GJ-11-CH-8426"
     ]
-
+  },
 ];
 
 const ApartmentCard = ({ apartment }) => {

@@ -733,7 +733,7 @@ const apartmentsData = [
     "flatNo": "B-1203",
     "ownerName": "મયંક એચ છત્રાળા",
     "ownerPhone": "7600898343",
-    "type": "માલિક",
+    "type": "ભાડુઆત",
     "tenantName": "ભાર્ગવભાઈ એચ ચોખલિયા",
     "tenantPhone": "9409435180",
     "members": 2,

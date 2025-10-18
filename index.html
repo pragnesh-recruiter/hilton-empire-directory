@@ -1,12 +1,48 @@
 <!DOCTYPE html>
-<html lang="gu">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hilton Empire B Wing - રહેવાસી ડિરેક્ટરી</title>
+    <title>Hilton Empire B Wing Directory</title>
+
+    <!-- App Theme -->
+    <meta name="theme-color" content="#004aad" />
+    <meta
+      name="description"
+      content="Hilton Empire B Wing Residency Directory — live updated from Google Sheet. View Malik and ભાડુઆત details, vehicles, and emergency contacts."
+    />
+
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.json" />
+
+    <!-- App Icons -->
+    <link rel="icon" href="/icons/icon-192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="/icons/icon-512.png" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/src/style.css" />
   </head>
+
   <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+
     <div id="root"></div>
+
+    <!-- Main React Script -->
     <script type="module" src="/src/main.jsx"></script>
+
+    <!-- Service Worker registration -->
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker
+            .register("/service-worker.js")
+            .then((reg) => console.log("Service Worker registered:", reg))
+            .catch((err) =>
+              console.log("Service Worker registration failed:", err)
+            );
+        });
+      }
+    </script>
   </body>
 </html>

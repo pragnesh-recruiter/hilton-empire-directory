@@ -23,7 +23,8 @@ const apartmentsData = [
     "members": 3,
     "nativePlace": "ઢોળીધાર (જામકંડોરણા)",
     "vehicles": [
-      "GJ-03-LJ-2881"
+      "GJ-03-LJ-2881",
+      "GJ-O3-PJ-2739"
     ]
   },
   {

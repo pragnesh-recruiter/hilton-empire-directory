@@ -897,6 +897,20 @@ const apartmentsData = [
       "GJ-11-CH-8426"
     ]
   },
+  {
+    "flatNo": "B-1405",
+    "ownerName": "દિલીપભાઈ પી મકવાણા",
+    "ownerPhone": "9106091667",
+    "type": "માલિક",
+    "tenantName": "nan",
+    "tenantPhone": "nan",
+    "members": 3,
+    "nativePlace": "કોયલી",
+    "vehicles": [
+      "GJ-03-DR-2588",
+      "GJ-05-AS-7859"
+    ]
+  },
 ];
 
 const ApartmentCard = ({ apartment }) => {

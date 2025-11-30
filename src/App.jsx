@@ -806,12 +806,13 @@ const apartmentsData = [
     "ownerName": "શ્યામભાઈ એમ ગરધરીયા",
     "ownerPhone": "9408239189",
     "type": "ભાડુઆત",
-    "tenantName": "દીપ ભાઈ શિહોરા",
-    "tenantPhone": "8000994464",
-    "members": 3,
-    "nativePlace": "મોટા ગુંડા (ભાણવડ)",
+    "tenantName": "રાજભાઈ વી હિંગળાજીયા",
+    "tenantPhone": "9408533495",
+    "members": 4,
+    "nativePlace": "વાંસજાળિયા",
     "vehicles": [
-      "GJ-37-H-8866"
+      "GJ-10-K-9149"
+      "GJ-01-RB-6639"
     ]
   },
   {

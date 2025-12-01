@@ -698,7 +698,8 @@ const apartmentsData = [
     "members": 3,
     "nativePlace": "નવા ગળોદર",
     "vehicles": [
-      "GJ-03-JG-6838"
+      "GJ-03-JG-6838",
+      "GJ-03-KN-5862"
     ]
   },
   {
@@ -811,7 +812,7 @@ const apartmentsData = [
     "members": 4,
     "nativePlace": "વાંસજાળિયા",
     "vehicles": [
-      "GJ-10-KA-9149"
+      "GJ-10-KA-9149",
       "GJ-01-RB-6639"
     ]
   },

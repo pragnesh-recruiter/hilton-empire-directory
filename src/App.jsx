@@ -811,7 +811,7 @@ const apartmentsData = [
     "members": 4,
     "nativePlace": "વાંસજાળિયા",
     "vehicles": [
-      "GJ-10-K-9149"
+      "GJ-10-KA-9149"
       "GJ-01-RB-6639"
     ]
   },

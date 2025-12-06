@@ -4,14 +4,16 @@ import { Phone, MessageCircle, Search, Users, MapPin, Car, Home } from 'lucide-r
 const apartmentsData = [
   {
     "flatNo": "B-201",
-    "ownerName": "nan",
+    "ownerName": "ઓજસભાઈ ભેંસદળીયા",
     "ownerPhone": "nan",
-    "type": "",
-    "tenantName": "nan",
-    "tenantPhone": "nan",
-    "members": 0,
-    "nativePlace": "",
-    "vehicles": []
+    "type": "ભાડુઆત",
+    "tenantName": "ચંદ્રેશભાઇ જે. ખાંટ",
+    "tenantPhone": "9624611866",
+    "members": 2,
+    "nativePlace": "જામવાળી (જામ.)",
+    "vehicles": [
+      "GJ-10-BH-4847"
+    ]
   },
   {
     "flatNo": "B-202",

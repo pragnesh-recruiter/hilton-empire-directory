@@ -921,7 +921,7 @@ const apartmentsData = [
     "vehicles": [
       "GJ-03-DR-2588",
       "GJ-05-AS-7859",
-      "GJ-03-0K-5176"
+      "GJ-03-OK-5176"
     ]
   },
 ];

@@ -429,7 +429,7 @@ const apartmentsData = [
       "GJ-03-FR-0750",
       "GJ-03-KL-1982",
       "GJ-03-NM-7480",
-      "GJ-03-LM-8986"
+      "GJ-03-LM-8986",
       "GJ-03-LM-2181"
     ]
   },
@@ -486,7 +486,7 @@ const apartmentsData = [
     "members": 2,
     "nativePlace": "ખડિયા",
     "vehicles": [
-      "GJ-03 HA-9533"
+      "GJ-03 HA-9533",
       "GJ-11 EA-8618"
     ]
   },
@@ -590,7 +590,7 @@ const apartmentsData = [
     "members": 3,
     "nativePlace": "ધણેજ બાકુલા (તાલાલા)",
     "vehicles": [
-      "GJ-03-EC-9071"
+      "GJ-03-EC-9071",
       "GJ-11-AE-3924"
     ]
   },
@@ -763,7 +763,7 @@ const apartmentsData = [
     "nativePlace": "ક્લાણા",
     "vehicles": [
       "GJ-03-JQ-4237",
-      "GJ-03-EL-1267"
+      "GJ-03-EL-1267",
       "GJ-03-PQ-4108"
     ]
   },
@@ -793,7 +793,7 @@ const apartmentsData = [
     "nativePlace": "ભાલેચડા (માણાવદર)",
     "vehicles": [
       "GJ-03-CP-2212",
-      "GJ-05-CH-0095"
+      "GJ-05-CH-0095",
       "GJ-03-MF-7894"
     ]
   },
@@ -891,7 +891,7 @@ const apartmentsData = [
       "GJ-03-NA-9086",
       "GJ-03-NC-9086",
       "GJ-03-NF-9086",
-      "GJ-14-AA-6872"
+      "GJ-14-AA-6872",
       "GJ-03-PL-9086"
     ]
   },
@@ -920,7 +920,7 @@ const apartmentsData = [
     "nativePlace": "કોયલી",
     "vehicles": [
       "GJ-03-DR-2588",
-      "GJ-05-AS-7859"
+      "GJ-05-AS-7859",
       "GJ-03-0K-5176"
     ]
   },
